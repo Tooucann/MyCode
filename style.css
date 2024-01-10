@@ -94,12 +94,12 @@ li{
     margin-right: auto;
     width: 50%;
   }*/
-  .threebox {
+ /* .threebox {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
   }
   /* Float four columns side by side */
-  .column {
+  /*.column {
     float: left;
     width: 25%;
     padding: 0 10px;
@@ -109,12 +109,16 @@ li{
   .row {margin: 0 -5px;}*/
   
   /* Clear floats after the columns */
-  .row:after {
+  /*.row:after {
     content: "";
     display: table;
     clear: both;
+  }*/
+  .threebox{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* This creates two columns */
+    gap: 10px; 
   }
-  
   /* Responsive columns */
   @media screen and (max-width: 600px) {
     .column {
