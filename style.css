@@ -64,7 +64,9 @@ header ul li{
     grid-template-columns: 1fr 1fr; /* This creates two columns */
     gap: 5px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    justify-content: center                                                                                                            ;
+    justify-content: center;
+    padding-left:140px;
+    padding-right:140px;
   }
   .quote{
     background-color: #A9D3F2;
